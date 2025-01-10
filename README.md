@@ -20,17 +20,29 @@ Para esse projeto, foram selecionadas 10 bases de dados de diferentes índices e
 ## Etapas do Projeto
 
 1. Importação e ajuste das bases
+   
   a. Exclusão de valores ausentes
+  
   b. Criação de colunas para retorno bruto e log-retorno
+  
 2. Exploração dos dados
+   
   a. Visualização das séries
+  
   b. Gráfico de autocorrelação e autocorrelação parcial
+  
   c. Teste de normalidade por assimetria e curtose
+  
 3. Ajuste de um modelo ARMA para linearidade pelo auto.arima
+   
   a. Definição de parâmetros relevantes através da comparação de seu coeficiente com seu erro padrão
-5. Ajuste de um modelo GARCH para volatilidade em conjunto ao ARMA
+
+4. Ajuste de um modelo GARCH para volatilidade em conjunto ao ARMA
+   
   a. Definição de parâmetros relevantes através do p-valor
-6. Definição do Valor em Risco a 1% para os próximos 10 dias
+
+5. Definição do Valor em Risco a 1% para os próximos 10 dias
+    
 
 ## Resultados
 
@@ -45,6 +57,7 @@ Visualização das séries temporais de preço ajustado, retorno bruto e log-ret
 Visualização da autocorrelação e autocorrelação parcial
 
 Modelo final treinado: ARMA(2,0)-GARCH(1,1)
+
 Valor em risco para os próximos 10 dias: 0,03%
 
 Para resultados dos outros dados, rodar o código localmente para obter detalhadamente.
