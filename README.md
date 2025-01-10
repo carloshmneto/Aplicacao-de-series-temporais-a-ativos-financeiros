@@ -37,9 +37,11 @@ Para esse projeto, foram selecionadas 10 bases de dados de diferentes índices e
 Um exemplo de resultado a ser exibido é para a série AAPL (ações da Apple):
 
 ![visualizacao](https://drive.google.com/uc?export=view&id=1Av93OjAI0byQ8403RZbgNrZafRGiUs4Z)
+
 Visualização das séries temporais de preço ajustado, retorno bruto e log-retorno
 
 ![autocorrelacoes](https://drive.google.com/uc?export=view&id=1nPZveHt-yM9Ast10THjxN95d9sIF25Ey)
+
 Visualização da autocorrelação e autocorrelação parcial
 
 Modelo final treinado: ARMA(2,0)-GARCH(1,1)
